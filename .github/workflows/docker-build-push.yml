@@ -1,4 +1,7 @@
-name: Build and Push FastAPI
+name: Build Docker image
+  run: |
+    docker build -t student-fastapi:latest .
+
 
 on:
   push:
